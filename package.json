@@ -4,7 +4,7 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "start": "vite",
+    "start": "qrcode-terminal http://$(prv-ip):5173 && vite --host",
     "preview": "vite preview",
     "build": "vite build",
     "lint": "eslint src/**/*.jsx",
@@ -14,7 +14,8 @@
   "dependencies": {
     "global": "^4.4.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-lottie": "^1.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
